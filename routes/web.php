@@ -17,5 +17,5 @@ Route::get('/', function () {
     $nama = "Vicinsky Owen Tanner";
     $npm = "2327240031";
 
-    return view('home', compact('nama', 'npm'));
+    return view('welcome', compact('nama', 'npm'));
 });
